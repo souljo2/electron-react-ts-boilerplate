@@ -1,0 +1,1 @@
+{"version":3,"sources":["RootApp.tsx"],"names":[],"mappings":";;;;;;;AAAA;;;;AAEM,SAAU,OAAV,GAAiB;AACrB,sBAAQ,eAAA,aAAA,CAAA,KAAA,EAAA,IAAA,EAAA,MAAA,CAAR;AACD","file":"RootApp.3e391738.js","sourceRoot":"..\\src","sourcesContent":["import React from 'react'\n\nexport function RootApp() {\n  return (<div>MAIN</div>)\n}"]}
