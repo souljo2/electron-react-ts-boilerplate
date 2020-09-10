@@ -1,20 +1,6 @@
-# Commands
-```
-// Build react src only
-"build-react": "parcel build src/index.html --no-source-maps"
-
-// Build electron
-"build-electron": "electron-builder"
-
-// Build all
-"build": "run-s pre-build-react pre-build-electron build-react build-electron"
-
-// Run react
-"dev-react": "parcel src/index.html"
-
-// Run electron
-"dev-electron": "electron ."
-
-// Run dev
-"dev": "concurrently yarn:dev-electron yarn:dev-react"
-```
+# In this template
+- [react-dom@16.13.1](https://github.com/facebook/react/releases/tag/v16.13.1)  
+- [react@16.13.1](https://github.com/facebook/react/releases/tag/v16.13.1)
+- [typescript@3.9.7](https://github.com/microsoft/TypeScript/releases/tag/v3.9.7)
+- [electron@10.1.1](https://github.com/electron/electron/releases/tag/v10.1.1)
+- [electron-builder@22.8.0](https://github.com/electron-userland/electron-builder/releases/tag/v22.8.0)
