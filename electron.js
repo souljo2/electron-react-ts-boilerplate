@@ -1,14 +1,14 @@
 const { app, BrowserWindow } = require( 'electron' )
-const isDev = require( 'electron-is-dev' )
 const path = require( 'path' )
 
+let mainWindow
+
 function createWindow () {
-  const mainWindow = new BrowserWindow( {
-    // alwaysOnTop: true,
-    // fullscreen: true,
+  const isDev = process.argv[ 2 ] === '--dev'
+
+  mainWindow = new BrowserWindow( {
     center: true,
-    kiosk: !isDev,
-    resizable: false,
+    resizable: true,
     webPreferences: {
       nodeIntegration: true,
     },
